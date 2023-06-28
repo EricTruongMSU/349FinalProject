@@ -83,16 +83,50 @@ nav h1 img {
 }
 
 .centertext {
-    max-width: 400px;
+    max-width: 800px;
     word-wrap: break-word;
 }
 
 .PICS {
     display: flex;
-    justify-content: center;
-}
-.pic {
-    margin: 0 10px;
-    width: 100px; 
+    justify-content: space-between;
+    align-items: center;
+    width: 50%;
+  }
+  
+  .picitem {
+    text-align: center;
+  }
+  
+  .pic {
+    width: 100px;
     height: 100px;
-}
+  }
+  
+  .pictext {
+    margin-top: 10px;
+    font-size: 14px;
+  }
+
+  form {
+    background-color: #f4f4f4;
+    padding: 20px;
+  }
+  
+  .newsletter {
+    text-align: center;
+  }
+  
+  h3 {
+    font-size: 18px;
+  }
+  
+  
+  button {
+    padding: 10px 20px;
+    background-color: #009e6f; 
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
