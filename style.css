@@ -154,3 +154,18 @@ nav h1 img {
     font-size: 14px;
   }
 
+
+  .Information {
+    display: flex;
+    justify-content: space-between;
+    max-width: 2000px;
+    margin: 0 auto;
+  }
+
+  .left-column, .right-column {
+    flex-basis: 48%;
+    padding: 20px;
+    background-color: #f2f2f2;
+  }
+
+
