@@ -86,3 +86,13 @@ nav h1 img {
     max-width: 400px;
     word-wrap: break-word;
 }
+
+.PICS {
+    display: flex;
+    justify-content: center;
+}
+.pic {
+    margin: 0 10px;
+    width: 100px; 
+    height: 100px;
+}
