@@ -2,17 +2,26 @@ body, ul {
     margin: 0;
     padding: 0;
 }
-
+main {
+    padding-top: 80px;
+}
 nav {
-    background-color: #333; 
+    background-color: #009e6f; 
     color: #fff; 
     display: flex; 
     align-items: center;
     padding: 10px 20px; 
+    position:sticky;
+    top:0;
+    z-index: 999;
+}
+nav h1 {
+    margin-right: auto;
 }
 
-nav h1 {
-    margin-right: auto; 
+nav h1 img {
+    height: 30px;
+    margin-left: 10px; 
 }
 
 .menu {
