@@ -41,4 +41,48 @@ nav h1 img {
 .menu li:first-child {
     margin-left: 0; 
 }
+.picture{
+    width: 100%;
+    display: block;
+    margin-top: -100px;
+}
 
+.image-container {
+    position: relative;
+}
+
+.text-left {
+    position: absolute;
+    top: 25%;
+    left: 210px;
+    color: #fff;
+    font-size: 100px;
+    font-weight: bold;
+}
+.small-text {
+    font-size: 14px;
+    color: #fff;
+    margin-top: -100px;
+    max-width: 600px;
+    word-wrap: break-word;
+}
+.center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.logo {
+    margin-top: 20px; 
+}
+
+.logopic {
+    width: 100px; 
+    height: 100px; 
+}
+
+.centertext {
+    max-width: 400px;
+    word-wrap: break-word;
+}
